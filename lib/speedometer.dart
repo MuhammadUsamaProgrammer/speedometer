@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:speedometer/meter_painter.dart';
 
@@ -36,6 +38,7 @@ class _SpeedometerState extends State<Speedometer>
                 width: MediaQuery.sizeOf(context).width,
                 child: AnimatedBuilder(
                   builder: (context, child) {
+                    log(animation.value.toString());
                     return CustomPaint(
                       painter: MeterPainter(percentage: animation.value),
                     );

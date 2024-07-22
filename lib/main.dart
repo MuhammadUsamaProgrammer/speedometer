@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:speedometer/black_hole.dart';
 import 'package:speedometer/speedometer.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
       ),
-      home: const Speedometer(),
+      // home: const Speedometer(),
+      home: const CardHiddenAnimationPage(),
     );
   }
 }
