@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:speedometer/meter_painter.dart';
+import 'package:speedometer/speedometer/meter_painter.dart';
 
 class Speedometer extends StatefulWidget {
   const Speedometer({super.key});
