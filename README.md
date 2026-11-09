@@ -1,30 +1,20 @@
-# Flutter Custom UI Experiments
+# speedometer
 
-A collection of custom-drawn and animated Flutter widgets, built with `CustomPainter` and the animation framework. No third-party UI packages.
 
 https://github.com/user-attachments/assets/3cb86848-9a45-4315-ae64-70184bf23a5d
 
-## What's inside
 
-| Widget | Folder | Description |
-|---|---|---|
-| **Speedometer** | `lib/speedometer/` | Animated gauge with a custom-painted dial, ticks, and needle |
-| **Black Hole** | `lib/Black_hole/` | Animated black-hole effect |
-| **Image Parallax** | `lib/image_parallex/` | Scroll-driven parallax image cards |
-| **Neon Draw** | `lib/neon_draw/` | Freehand drawing with a glowing neon stroke |
-| **Date-Time Picker** | `lib/date_time_picker/` | Custom date and time picker UI |
+A new Flutter project.
 
-## Run it
+## Getting Started
 
-```bash
-git clone https://github.com/MuhammadUsamaProgrammer/speedometer.git
-cd speedometer
-flutter pub get
-flutter run
-```
+This project is a starting point for a Flutter application.
 
-To try a different demo, change the `home:` widget in `lib/main.dart`.
+A few resources to get you started if this is your first Flutter project:
 
-## Tech stack
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-Flutter · Dart · `CustomPainter` · `AnimationController`
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
